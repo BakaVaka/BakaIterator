@@ -81,16 +81,19 @@
         //Для случая если нам нужен не просто первый, но первый который не текущий
         public BakaIterator<T> FirstNext(Func<T, bool> predicate, bool throwIfNotFound = true)
         {
-            if (HasNext)
+            if (HasNext)//есть куда двигаться
             {
-                MoveForward();
+                MoveForward();//просто пропустим элемент чтобы не вернуть текущий
             }
-            else if(throwIfNotFound)
+            else if(throwIfNotFound)// идти некуда
             {
                 throw new Exception("End reached");
             }
-            return First((x) => predicate(x), throwIfNotFound);
-            
+            else //идти некуда, но и ошибку не просили кидать
+            {
+                return this;
+            }
+            return First((x) => predicate(x), throwIfNotFound);            
         }
 
         public BakaIterator<T> ThrowIf(Func<T, bool> predicate)
