@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakaIterator", "BakaIterator\BakaIterator.csproj", "{CDFA9AEE-4CB6-44E0-BE2F-A8E97CE4E2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F77A9FEF-DD18-4651-A427-D926D38CA900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFA9AEE-4CB6-44E0-BE2F-A8E97CE4E2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFA9AEE-4CB6-44E0-BE2F-A8E97CE4E2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFA9AEE-4CB6-44E0-BE2F-A8E97CE4E2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFA9AEE-4CB6-44E0-BE2F-A8E97CE4E2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77A9FEF-DD18-4651-A427-D926D38CA900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77A9FEF-DD18-4651-A427-D926D38CA900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77A9FEF-DD18-4651-A427-D926D38CA900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77A9FEF-DD18-4651-A427-D926D38CA900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AC25525-C53C-4D8D-9D7A-462F37686934}
+	EndGlobalSection
+EndGlobal
