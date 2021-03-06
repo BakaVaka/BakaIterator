@@ -110,15 +110,6 @@
             }
             return this;
         }
-
-        public BakaIterator<T> ForEachFromCurrent(Action<T> action)
-        {
-            foreach(var i in _items.Skip(_index + 1))
-            {
-                action(i);
-            }
-            return this;
-        }
         public BakaIterator<T> ForEach(Action<T> action)
         {
             foreach (var i in _items)
